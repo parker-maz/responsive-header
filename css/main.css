@@ -56,3 +56,15 @@ li > a:hover {
   background-color: #6c8fe0;
   color: #fff;
 }
+
+@media only screen and (min-width: 25em) {
+  nav > ul {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  li {
+    text-align: center;
+    width: 50%;
+  }
+}
